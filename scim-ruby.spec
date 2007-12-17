@@ -14,7 +14,6 @@ Group:		System/Internationalization
 License:	GPL
 URL:		http://scim-ruby.sourceforge.jp/cgi-bin/hiki.cgi
 Source0:	%{name}-%{version}.tar.bz2
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	ruby
 Requires:	scim >= %{scim_version}
 BuildRequires:  automake1.8
