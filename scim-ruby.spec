@@ -14,6 +14,7 @@ Group:		System/Internationalization
 License:	GPL
 URL:		http://scim-ruby.sourceforge.jp/cgi-bin/hiki.cgi
 Source0:	%{name}-%{version}.tar.bz2
+Patch0:		scim-ruby-20061126-headers.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	ruby
 Requires:	scim >= %{scim_version}
@@ -27,6 +28,7 @@ Scim-ruby is an SCIM IMEngine module for ruby.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 [ ! -x configure ] && ./autogen.sh
