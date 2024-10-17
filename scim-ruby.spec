@@ -12,7 +12,7 @@ Version:	%{version}
 Release:	%{release}
 Group:		System/Internationalization
 License:	GPL
-URL:		http://scim-ruby.sourceforge.jp/cgi-bin/hiki.cgi
+URL:		https://scim-ruby.sourceforge.jp/cgi-bin/hiki.cgi
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		scim-ruby-20061126-headers.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
