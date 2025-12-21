@@ -18,6 +18,9 @@ Patch0:		scim-ruby-20061126-headers.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:	ruby
 Requires:	scim >= %{scim_version}
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:  automake1.8
 BuildRequires:  ruby-devel >= %{ruby_version}
 BuildRequires:  scim-devel >= %{scim_version}
